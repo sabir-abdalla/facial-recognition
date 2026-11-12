@@ -1,0 +1,18 @@
+# Ignore data folders (images)
+data/
+application_data/
+stranger_test/
+you_test/
+
+# Ignore large model files
+*.keras
+*.h5
+*.pb
+
+# Ignore Python cache
+__pycache__/
+*.pyc
+
+# Ignore OS files
+.DS_Store
+Thumbs.db
